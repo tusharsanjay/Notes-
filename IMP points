@@ -33,7 +33,34 @@ installed Plugin
 
 
 
-
+Repository Management
+	•	git init: Initializes a new Git repository.
+	•	git clone <repository-url>: Clones an existing repository from a URL.
+Working with Changes
+	•	git status: Shows the current status of the repository.
+	•	git add <file>: Adds a file to the staging area.
+	•	git add .: Adds all changed files in the current directory to the staging area.
+	•	git commit -m "commit message": Commits the staged changes with a message.
+	•	git diff: Shows the changes that have been made but not yet staged.
+Branching and Merging
+	•	git branch: Lists all branches.
+	•	git branch <branch-name>: Creates a new branch.
+	•	git checkout <branch-name>: Switches to the specified branch.
+	•	git merge <branch-name>: Merges the specified branch into the current branch.
+Remote Repositories
+	•	git remote: Lists remote repositories.
+	•	git remote add <name> <url>: Adds a new remote repository.
+	•	git fetch: Fetches changes from the remote repository.
+	•	git pull: Fetches and merges changes from the remote repository.
+	•	git push: Pushes committed changes to the remote repository.
+Undoing Changes
+	•	git reset <file>: Unstages a file.
+	•	git reset --hard <commit>: Resets the working directory and staging area to the specified commit.
+	•	git revert <commit>: Creates a new commit that undoes the changes from the specified commit.
+Viewing History
+	•	git log: Shows the commit history.
+	•	git log --oneline: Shows the commit history with each commit on one line.
+	•	git show <commit>: Displays detailed information about the specified commit.
 
 
 
