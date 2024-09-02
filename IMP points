@@ -70,7 +70,7 @@ And: Yes it can be at any location
 can the jenkins file is having the different name 
 YES:  it can have different name, the'naming canvention can be any thing
 
-
+##########################################################################################3
 
 pipeline {
     agent any
@@ -111,6 +111,98 @@ pipeline {
         }
     }
 }
+
+###############################################################################################
+mkdir myweb
+
+cd myweb
+
+# make two file inside it 1) index.html 2) Dockerfile
+
+vi index.html
+	<i>
+echo "hello world"
+
+:wq!
+
+touch Dockerfile
+
+vi Dockerfile
+
+<I>
+FROM nginx
+COPY index.html usr/share/nginx/html/
+:wq!
+
+#sudo docker build -t myweb .     --------------------------inside the myweb
+
+# sudo docker images ls
+
+once you got the image from image you could create acontainer and can run 
+
+#sudo docker run -d -p 2020:20 myweb
+
+##################################################################################################
+
+how to create docker coantainer by writing docker file 
+
+#mkdir myweb
+
+cd myweb
+
+# make two file inside it 1) index.html 2) Dockerfile
+
+vi index.html
+	<i>
+echo "hello world"
+
+:wq!
+
+touch Dockerfile
+
+vi Dockerfile
+
+<I>
+FROM nginx
+COPY index.html usr/share/nginx/html/
+:wq!
+
+#sudo docker build -t myweb .     --------------------------inside the myweb
+
+# sudo docker images ls
+
+once you got the image from image you could create acontainer and can run 
+
+#sudo docker run -d -p 2020:20 myweb
+
+try to access the container from Browser 
+<http://ipaddresss/loclhost:8080 
+
+#########################################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
