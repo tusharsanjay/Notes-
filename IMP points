@@ -180,6 +180,16 @@ try to access the container from Browser
 
 #########################################################################################
 
+spliet all services of aws as per iaas paas & saas
+
+Amazon Web Services (AWS) offers a combination of Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). Here are some examples of each type of service: 
+IaaS
+These services include Amazon Simple Storage Service (S3), Amazon Elastic Compute Cloud (EC2), Amazon EBS, Amazon EFS, Amazon EMR, Amazon Lambda, Amazon FSx, and Amazon ECS. 
+PaaS
+These services include Amazon Redshift, Amazon Aurora, Amazon RDS, Amazon SNS, and Amazon SageMaker. 
+SaaS
+Amazon EventBridge is a serverless event bus that connects applications using data from SaaS, AWS services, and other sources. 
+AWS offers tools such as database storage, compute power, and content delivery services. 
 
 
 
